@@ -14,3 +14,5 @@ JSON.entries(body).forEach(function (pair) => {
       const 24hChange= JSON.stringify(coin.usd_24h_change)
       $("#sorted").append(`${name} price: ${price}`);
 */
+
+new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(value.usd);

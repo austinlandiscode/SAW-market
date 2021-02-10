@@ -1,0 +1,16 @@
+base level: display all coins' information.
+
+display 1 coin's information
+
+search for and display coin information 
+
+high to low static method that sorts based sell price of coin.
+
+
+JSON.entries(body).forEach(function (pair) => {
+      const name = pair.key;
+      const coin = pair.value;
+      const price = JSON.stringify(coin.usd);
+      const 24hChange= JSON.stringify(coin.usd_24h_change)
+      $("#sorted").append(`${name} price: ${price}`);
+*/
